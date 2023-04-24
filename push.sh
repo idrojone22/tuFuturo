@@ -3,4 +3,4 @@ read n
 git status
 git add *
 git commit -m "$n"
-git push 
+git push -f
