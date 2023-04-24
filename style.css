@@ -42,12 +42,12 @@ li {
 }
 
 #inici{
-    margin-top: 200px;
+    margin-top: 50px;
     width: 100%;
 }
 
 #texto{
-    margin-left: 350px;
+    margin-left: 300px;
     margin-bottom: 35px;
     display: flex;
     flex-direction: column;
@@ -107,8 +107,9 @@ li {
 
 #imagen_ataud{
     position: absolute;
-    right: 500px; 
+    right: 400px; 
     top: 400px;
+    z-index: 1;
 }
 
 .flechita{
