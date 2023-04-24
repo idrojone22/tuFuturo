@@ -1,3 +1,3 @@
 # tuFuturo
 
- https://idrojone22.github.io/tuFuturo/
+https://idrojone22.github.io/tuFuturo/public/
