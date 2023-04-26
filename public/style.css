@@ -33,7 +33,7 @@ header{
 	height: 43px;
 	padding-left: 18px;
 	border-radius: 9px;
-    width: 30%;
+    width: fit-content;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
