@@ -281,6 +281,7 @@ header{
 	border: 10px solid white;
 	margin: 10px;
 	width: fit-content;
+	border-radius: 10px;
 }
 .bot {
 	color: white;
@@ -312,4 +313,8 @@ header{
 	margin-top: 50px;
 	margin-left: 50px;
 	gap: 30px;
+}
+
+#ataud{
+	margin-top: 50px;
 }

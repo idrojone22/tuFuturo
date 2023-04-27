@@ -1,144 +1,143 @@
 // BD
-let arrayataudes = [1, 2, 3, 4];
 let  informacionAtaudes = [
     {
         id: 1,
         precio: 350,
         nombre: 'Básico',
-        img:  '../imagenes/ataudes0.png',
+        img:  '../imagenes/ataudes/ataudes0.png',
         descripcion: ''
     },
     {
         id: 2,
         precio: 400,
         nombre: 'Infantil',
-        img:  '../imagenes/ataudes1.png',
+        img:  '../imagenes/ataudes/ataudes1.png',
         descripcion: ''
     },
     {
         id: 3,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes2.png',
+        img:  '../imagenes/ataudes/ataudes2.png',
         descripcion: ''
     },
     {
         id: 4,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes3.png',
+        img:  '../imagenes/ataudes/ataudes3.png',
         descripcion: ''
     },
     {
         id: 5,
         precio: 350,
         nombre: 'Básico',
-        img:  '../imagenes/ataudes4.jpeg',
+        img:  '../imagenes/ataudes/ataudes4.jpeg',
         descripcion: ''
     },
     {
         id: 6,
         precio: 400,
         nombre: 'Infantil',
-        img:  '../imagenes/ataudes5.jpeg',
+        img:  '../imagenes/ataudes/ataudes5.jpeg',
         descripcion: ''
     },
     {
         id: 7,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes6.jpeg',
         descripcion: ''
     },
     {
         id: 8,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes7.jpeg',
         descripcion: ''
     },
     {
         id: 9,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes8.jpeg',
         descripcion: ''
     },
     {
         id: 10,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes9.jpeg',
         descripcion: ''
     },
     {
         id: 11,
         precio: 350,
         nombre: 'Básico',
-        img:  '../imagenes/ataudes0.png',
+        img:  '../imagenes/ataudes/ataudes10.jpeg',
         descripcion: ''
     },
     {
         id: 12,
         precio: 400,
         nombre: 'Infantil',
-        img:  '../imagenes/ataudes1.png',
+        img:  '../imagenes/ataudes/ataudes11.jpg',
         descripcion: ''
     },
     {
         id: 13,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes2.png',
+        img:  '../imagenes/ataudes/ataudes12.jpeg',
         descripcion: ''
     },
     {
         id: 14,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes3.png',
+        img:  '../imagenes/ataudes/ataudes13.jpeg',
         descripcion: ''
     },
     {
         id: 15,
         precio: 350,
         nombre: 'Básico',
-        img:  '../imagenes/ataudes4.jpeg',
+        img:  '../imagenes/ataudes/ataudes14.jpeg',
         descripcion: ''
     },
     {
         id: 16,
         precio: 400,
         nombre: 'Infantil',
-        img:  '../imagenes/ataudes5.jpeg',
+        img:  '../imagenes/ataudes/ataudes15.jpeg',
         descripcion: ''
     },
     {
         id: 17,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes16.jpeg',
         descripcion: ''
     },
     {
         id: 18,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes17.jpeg',
         descripcion: ''
     },
     {
         id: 19,
         precio: 600,
         nombre: 'Adulto',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes18.jpeg',
         descripcion: ''
     },
     {
         id: 20,
         precio: 1000,
         nombre: 'Senior',
-        img:  '../imagenes/ataudes6.jpg',
+        img:  '../imagenes/ataudes/ataudes19.jpeg',
         descripcion: ''
     }
 ]
@@ -152,10 +151,10 @@ body.innerHTML = `
         <nav class='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
             <ul>
-              <li><a href='http://'>Inicio</a></li>
-              <li><a class='dropdown-arrow' href='http://'>Servicios</a>
+              <li><a href='#logoFoto'>Inicio</a></li>
+              <li><a class='dropdown-arrow' href='#Servicios'>Servicios</a>
                 <ul class='sub-menus'>
-                  <li><a href='http://'>Ataudes</a></li>
+                  <li><a href='#ataudes'>Ataudes</a></li>
                   <li><a href='http://'>Flores</a></li> 
                   <li><a href='http://'>Urna</a></li>
                 </ul>
@@ -191,13 +190,17 @@ body.innerHTML = `
             <div class="container">
                 <nav class="menu" id="menu_1">
                     <ul>
-                      <li><a href='http://'>Ataudes</a></li>
-                      <li><a href='http://'>Flores</a></li>
+                      <li><a href='#ataud'>Ataudes</a></li>
+                      <li><a href='#flores'>Flores</a></li>
                       <li><a href='http://'>urnas</a></li>
                     </ul>
                 </nav>
             </div>
+            <div class="container">
+                <h2 class="titulo" id="ataud">Ataudes</h2>
+            </div>
             <div id="ataudes"></div>
+            <div id="flores">
         </section>
     </main>     
 `;
