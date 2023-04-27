@@ -276,3 +276,40 @@ header{
 #menu_1{
 	margin-top: 50px;
 }
+
+.casilla {
+	border: 10px solid white;
+	margin: 10px;
+	width: fit-content;
+}
+.bot {
+	color: white;
+	margin: auto;
+}
+
+.texto {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.girar {
+	transition-duration: 2s;
+	transform: 2s rotateY(180deg);
+}
+.casillagirada {
+	height: 413px;
+	width: 300px;
+}
+
+#ataudes{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-left: 50px;
+	gap: 30px;
+}
