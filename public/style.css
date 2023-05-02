@@ -307,7 +307,7 @@ header{
 	width: 300px;
 }
 
-#ataudes{
+#ataudes, #flores, #urnas{
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 50px;
@@ -315,6 +315,6 @@ header{
 	gap: 30px;
 }
 
-#ataud{
+#ataud, #flores, #urnas{
 	margin-top: 50px;
 }
