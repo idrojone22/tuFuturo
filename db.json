@@ -4,140 +4,140 @@
       "id": 1,
       "precio": 350,
       "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataudes0.png",
+      "img": "../imagenes/ataudes/ataud1.png",
       "descripcion": ""
     },
     {
       "id": 2,
       "precio": 400,
       "nombre": "Glamur ",
-      "img": "../imagenes/ataudes/ataudes1.png",
+      "img": "../imagenes/ataudes/ataud2.png",
       "descripcion": ""
     },
     {
       "id": 3,
       "precio": 600,
       "nombre": "Niño de papa",
-      "img": "../imagenes/ataudes/ataudes2.png",
+      "img": "../imagenes/ataudes/ataud3.png",
       "descripcion": ""
     },
     {
       "id": 4,
       "precio": 1000,
       "nombre": "3D",
-      "img": "../imagenes/ataudes/ataudes3.png",
+      "img": "../imagenes/ataudes/ataud4.png",
       "descripcion": ""
     },
     {
       "id": 5,
       "precio": 350,
       "nombre": "Básico madera",
-      "img": "../imagenes/ataudes/ataudes4.jpeg",
+      "img": "../imagenes/ataudes/ataud5.png",
       "descripcion": ""
     },
     {
       "id": 6,
       "precio": 400,
       "nombre": "Infantil terrestre",
-      "img": "../imagenes/ataudes/ataudes5.jpeg",
+      "img": "../imagenes/ataudes/ataud6.png",
       "descripcion": ""
     },
     {
       "id": 7,
       "precio": 600,
       "nombre": "Adulto pobre",
-      "img": "../imagenes/ataudes/ataudes6.jpeg",
+      "img": "../imagenes/ataudes/ataud7.png",
       "descripcion": ""
     },
     {
       "id": 8,
       "precio": 1000,
       "nombre": "Adulto básico",
-      "img": "../imagenes/ataudes/ataudes7.jpeg",
+      "img": "../imagenes/ataudes/ataud8.png",
       "descripcion": ""
     },
     {
       "id": 9,
       "precio": 600,
       "nombre": "Niño querido",
-      "img": "../imagenes/ataudes/ataudes8.jpeg",
+      "img": "../imagenes/ataudes/ataud9.png",
       "descripcion": ""
     },
     {
       "id": 10,
       "precio": 1000,
       "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataudes9.jpeg",
+      "img": "../imagenes/ataudes/ataud10.png",
       "descripcion": ""
     },
     {
       "id": 11,
       "precio": 350,
       "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataudes10.jpeg",
+      "img": "../imagenes/ataudes/ataud11.png",
       "descripcion": ""
     },
     {
       "id": 12,
       "precio": 400,
       "nombre": "Infantil",
-      "img": "../imagenes/ataudes/ataudes11.jpg",
+      "img": "../imagenes/ataudes/ataud12.png",
       "descripcion": ""
     },
     {
       "id": 13,
       "precio": 600,
       "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataudes12.jpeg",
+      "img": "../imagenes/ataudes/ataud13.png",
       "descripcion": ""
     },
     {
       "id": 14,
       "precio": 1000,
       "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataudes13.jpeg",
+      "img": "../imagenes/ataudes/ataud14.png",
       "descripcion": ""
     },
     {
       "id": 15,
       "precio": 350,
       "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataudes14.jpeg",
+      "img": "../imagenes/ataudes/ataud15.png",
       "descripcion": ""
     },
     {
       "id": 16,
       "precio": 400,
       "nombre": "Infantil",
-      "img": "../imagenes/ataudes/ataudes15.jpeg",
+      "img": "../imagenes/ataudes/ataud16.png",
       "descripcion": ""
     },
     {
       "id": 17,
       "precio": 600,
       "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataudes16.jpeg",
+      "img": "../imagenes/ataudes/ataud17.png",
       "descripcion": ""
     },
     {
       "id": 18,
       "precio": 1000,
       "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataudes17.jpeg",
+      "img": "../imagenes/ataudes/ataud18.png",
       "descripcion": ""
     },
     {
       "id": 19,
       "precio": 600,
       "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataudes18.jpeg",
+      "img": "../imagenes/ataudes/ataud19.png",
       "descripcion": ""
     },
     {
       "id": 20,
       "precio": 1000,
       "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataudes19.jpeg",
+      "img": "../imagenes/ataudes/ataud20.png",
       "descripcion": ""
     },
     {
