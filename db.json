@@ -277,147 +277,147 @@
         "id": 40,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/flores/Coronadeflores20.png",
+        "img": "../imagenes/urnas/urna1.png",
         "descripcion": ""
     },
     {
         "id": 41,
         "precio": 150,
         "nombre": "Urna biodegradable(como tu)",
-        "img": "../imagenes/urnabio.png",
+        "img": "../imagenes/urnas/urna2.png",
         "descripción": ""
     },
     {
         "id": 42,
         "precio": 50,
         "nombre": "Mini urna",
-        "img": "../imagenes/urna2.jpg",
+        "img": "../imagenes/urnas/urna3.png",
         "descripción": ""
     },
     {
         "id": 43,
         "precio": 100,
         "nombre": "Urna perro",
-        "img": "../imagenes/urna3.png",
+        "img": "../imagenes/urnas/urna4.png",
         "descripción": ""
     },
     {
         "id": 44,
         "precio": 200,
         "nombre": "Urna de bronze",
-        "img": "../imagenes/urna4.jpg",
+        "img": "../imagenes/urnas/urna5.png",
         "descripción": ""
     },
     {
         "id": 45,
         "precio": 350,
         "nombre": "Básico",
-        "img": "../imagenes/ataudes/ataudes4.jpeg",
+        "img": "../imagenes/urnas/urna6.png",
         "descripcion": ""
     },
     {
         "id": 46,
         "precio": 400,
         "nombre": "Infantil",
-        "img": "../imagenes/ataudes/ataudes5.jpeg",
+        "img": "../imagenes/urnas/urna7.png",
         "descripcion": ""
     },
     {
         "id": 47,
         "precio": 600,
         "nombre": "Adulto",
-        "img": "../imagenes/ataudes/ataudes6.jpeg",
+        "img": "../imagenes/urnas/urna8.png",
         "descripcion": ""
     },
     {
         "id": 48,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/ataudes/ataudes7.jpeg",
+        "img": "../imagenes/urnas/urna9.png",
         "descripcion": ""
     },
     {
         "id": 49,
         "precio": 600,
         "nombre": "Adulto",
-        "img": "../imagenes/ataudes/ataudes8.jpeg",
+        "img": "../imagenes/urnas/urna10.png",
         "descripcion": ""
     },
     {
         "id": 50,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/ataudes/ataudes9.jpeg",
+        "img": "../imagenes/urnas/urna11.png",
         "descripcion": ""
     },
     {
         "id": 51,
         "precio": 350,
         "nombre": "Básico",
-        "img": "../imagenes/ataudes/ataudes10.jpeg",
+        "img": "../imagenes/urnas/urna12.png",
         "descripcion": ""
     },
     {
         "id": 52,
         "precio": 400,
         "nombre": "Infantil",
-        "img": "../imagenes/ataudes/ataudes11.jpeg",
+        "img": "../imagenes/urnas/urna13.png",
         "descripcion": ""
     },
     {
         "id": 53,
         "precio": 600,
         "nombre": "Adulto",
-        "img": "../imagenes/ataudes/ataudes12.jpeg",
+        "img": "../imagenes/urnas/urna14.png",
         "descripcion": ""
     },
     {
         "id": 54,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/ataudes/ataudes13.jpeg",
+        "img": "../imagenes/urnas/urna15.png",
         "descripcion": ""
     },
     {
         "id": 55,
         "precio": 350,
         "nombre": "Básico",
-        "img": "../imagenes/ataudes/ataudes14.jpeg",
+        "img": "../imagenes/urnas/urna16.png",
         "descripcion": ""
     },
     {
         "id": 56,
         "precio": 400,
         "nombre": "Infantil",
-        "img": "../imagenes/ataudes/ataudes15.jpeg",
+        "img": "../imagenes/urnas/urna17.png",
         "descripcion": ""
     },
     {
         "id": 57,
         "precio": 600,
         "nombre": "Adulto",
-        "img": "../imagenes/ataudes/ataudes16.jpeg",
+        "img": "../imagenes/urnas/urna18.png",
         "descripcion": ""
     },
     {
         "id": 58,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/ataudes/ataudes17.jpeg",
+        "img": "../imagenes/urnas/urna19.png",
         "descripcion": ""
     },
     {
         "id": 59,
         "precio": 600,
         "nombre": "Adulto",
-        "img": ".../imagenes/ataudes/ataudes18.jpeg",
+        "img": "../imagenes/urnas/urna20.png",
         "descripcion": ""
     },
     {
         "id": 60,
         "precio": 1000,
         "nombre": "Senior",
-        "img": "../imagenes/ataudes/ataudes19.jpeg",
+        "img": "../imagenes/urnas/urna8.png",
         "descripcion": ""
     }
   ],
