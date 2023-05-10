@@ -30,7 +30,7 @@ body.innerHTML = `
                 <p class="pequeño">Quieres un descanso eterno y seguro? Ven a tu futuro</p>
                 <p class="pequeño">el lugar donde tu seres queridos te despediran por ultima vez</p>
                 <div id="boton_descubrelo_center">
-                    <button id="boton_descubrelo">DESCÚBRELO</button>
+                    <button id="boton_descubrelo"><a href="#Servicios">DESCÚBRELO</a></button>
                 </div>
             </div>
             <div id="imagen_ataud_container">
@@ -58,11 +58,11 @@ body.innerHTML = `
             </div>
             <div id="ataudes"></div>
             <div class="container">
-                <h2 class="titulo" id="ataud">Flores</h2>
+                <h2 class="titulo" id="flor">Flores</h2>
             </div>
             <div id="flores"></div>
             <div class="container">
-                <h2 class="titulo" id="ataud">Urnas</h2>
+                <h2 class="titulo" id="urna">Urnas</h2>
             </div>
             <div id="urnas"></div>
         </section>
@@ -73,13 +73,14 @@ body.innerHTML = `
 fetchDB();
 function fetchDB() {
 
-    const url = 'http://192.168.21.105:3000/posts' 
+    const url = 'http://192.168.21.105:3000/posts'
     fetch(url)
         .then(response => response.json())
         .then(data => {
             console.log(data);
             // presentar ataudes
             for (let i = 0; i < 20; i++) {
+                console.log[data[i]]
                 mostrarAtaudes(data[i]);
             }
             // presentar flores
@@ -91,6 +92,21 @@ function fetchDB() {
                 mostrarUrnas(data[i]);
             }
         })
+}
+
+function post() {
+    fetch('http://192.168.21.105:3000/posts', {
+            method: 'POST',
+            body: JSON.stringify({
+            title: 'foo',
+            body: 'bar'
+        }),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    })
+    .then((response) => response.json())
+    .then((json) => console.log(json));
 }
 
 function mostrarAtaudes(ataudes) {
@@ -134,4 +150,6 @@ function updatemenu() {
     } else {
         document.getElementById('menu').style.borderRadius = '9px';
     }
-}
+}   
+
+
