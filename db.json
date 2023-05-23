@@ -1,424 +1,428 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataud1.png",
-      "descripcion": ""
-    },
-    {
-      "id": 2,
-      "precio": 400,
-      "nombre": "Glamur ",
-      "img": "../imagenes/ataudes/ataud2.png",
-      "descripcion": ""
-    },
-    {
-      "id": 3,
-      "precio": 600,
-      "nombre": "Niño de papa",
-      "img": "../imagenes/ataudes/ataud3.png",
-      "descripcion": ""
-    },
-    {
-      "id": 4,
-      "precio": 1000,
-      "nombre": "3D",
-      "img": "../imagenes/ataudes/ataud4.png",
-      "descripcion": ""
-    },
-    {
-      "id": 5,
-      "precio": 350,
-      "nombre": "Básico madera",
-      "img": "../imagenes/ataudes/ataud5.png",
-      "descripcion": ""
-    },
-    {
-      "id": 6,
-      "precio": 400,
-      "nombre": "Infantil terrestre",
-      "img": "../imagenes/ataudes/ataud6.png",
-      "descripcion": ""
-    },
-    {
-      "id": 7,
-      "precio": 600,
-      "nombre": "Adulto pobre",
-      "img": "../imagenes/ataudes/ataud7.png",
-      "descripcion": ""
-    },
-    {
-      "id": 8,
-      "precio": 1000,
-      "nombre": "Adulto básico",
-      "img": "../imagenes/ataudes/ataud8.png",
-      "descripcion": ""
-    },
-    {
-      "id": 9,
-      "precio": 600,
-      "nombre": "Niño querido",
-      "img": "../imagenes/ataudes/ataud9.png",
-      "descripcion": ""
-    },
-    {
-      "id": 10,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataud10.png",
-      "descripcion": ""
-    },
-    {
-      "id": 11,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataud11.png",
-      "descripcion": ""
-    },
-    {
-      "id": 12,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/ataudes/ataud12.png",
-      "descripcion": ""
-    },
-    {
-      "id": 13,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataud13.png",
-      "descripcion": ""
-    },
-    {
-      "id": 14,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataud14.png",
-      "descripcion": ""
-    },
-    {
-      "id": 15,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/ataudes/ataud15.png",
-      "descripcion": ""
-    },
-    {
-      "id": 16,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/ataudes/ataud16.png",
-      "descripcion": ""
-    },
-    {
-      "id": 17,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataud17.png",
-      "descripcion": ""
-    },
-    {
-      "id": 18,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataud18.png",
-      "descripcion": ""
-    },
-    {
-      "id": 19,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/ataudes/ataud19.png",
-      "descripcion": ""
-    },
-    {
-      "id": 20,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/ataudes/ataud20.png",
-      "descripcion": ""
-    },
-    {
-      "id": 21,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/flores/Coronadeflores1.png",
-      "descripcion": ""
-    },
-    {
-      "id": 22,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/flores/Coronadeflores2.png",
-      "descripcion": ""
-    },
-    {
-      "id": 23,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores3.png",
-      "descripcion": ""
-    },
-    {
-      "id": 24,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/flores/Coronadeflores4.png",
-      "descripcion": ""
-    },
-    {
-      "id": 25,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/flores/Coronadeflores5.png",
-      "descripcion": ""
-    },
-    {
-      "id": 26,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/flores/Coronadeflores6.png",
-      "descripcion": ""
-    },
-    {
-      "id": 27,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores7.png",
-      "descripcion": ""
-    },
-    {
-      "id": 28,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/flores/Coronadeflores8.png",
-      "descripcion": ""
-    },
-    {
-      "id": 29,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores9.png",
-      "descripcion": ""
-    },
-    {
-      "id": 30,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/flores/Coronadeflores10.png",
-      "descripcion": ""
-    },
-    {
-      "id": 31,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/flores/Coronadeflores11.png",
-      "descripcion": ""
-    },
-    {
-      "id": 32,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/flores/Coronadeflores12.png",
-      "descripcion": ""
-    },
-    {
-      "id": 33,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores13.png",
-      "descripcion": ""
-    },
-    {
-      "id": 34,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/flores/Coronadeflores14.png",
-      "descripcion": ""
-    },
-    {
-      "id": 35,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/flores/Coronadeflores15.png",
-      "descripcion": ""
-    },
-    {
-      "id": 36,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/flores/Coronadeflores16.png",
-      "descripcion": ""
-    },
-    {
-      "id": 37,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores17.png",
-      "descripcion": ""
-    },
-    {
-      "id": 38,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/flores/Coronadeflores18.png",
-      "descripcion": ""
-    },
-    {
-      "id": 39,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/flores/Coronadeflores19.png",
-      "descripcion": ""
-    },
-    {
-      "id": 40,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna1.png",
-      "descripcion": ""
-    },
-    {
-      "id": 41,
-      "precio": 150,
-      "nombre": "Urna biodegradable(como tu)",
-      "img": "../imagenes/urnas/urna2.png",
-      "descripción": ""
-    },
-    {
-      "id": 42,
-      "precio": 50,
-      "nombre": "Mini urna",
-      "img": "../imagenes/urnas/urna3.png",
-      "descripción": ""
-    },
-    {
-      "id": 43,
-      "precio": 100,
-      "nombre": "Urna perro",
-      "img": "../imagenes/urnas/urna4.png",
-      "descripción": ""
-    },
-    {
-      "id": 44,
-      "precio": 200,
-      "nombre": "Urna de bronze",
-      "img": "../imagenes/urnas/urna5.png",
-      "descripción": ""
-    },
-    {
-      "id": 45,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/urnas/urna6.png",
-      "descripcion": ""
-    },
-    {
-      "id": 46,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/urnas/urna7.png",
-      "descripcion": ""
-    },
-    {
-      "id": 47,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/urnas/urna8.png",
-      "descripcion": ""
-    },
-    {
-      "id": 48,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna9.png",
-      "descripcion": ""
-    },
-    {
-      "id": 49,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/urnas/urna10.png",
-      "descripcion": ""
-    },
-    {
-      "id": 50,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna11.png",
-      "descripcion": ""
-    },
-    {
-      "id": 51,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/urnas/urna12.png",
-      "descripcion": ""
-    },
-    {
-      "id": 52,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/urnas/urna13.png",
-      "descripcion": ""
-    },
-    {
-      "id": 53,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/urnas/urna14.png",
-      "descripcion": ""
-    },
-    {
-      "id": 54,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna15.png",
-      "descripcion": ""
-    },
-    {
-      "id": 55,
-      "precio": 350,
-      "nombre": "Básico",
-      "img": "../imagenes/urnas/urna16.png",
-      "descripcion": ""
-    },
-    {
-      "id": 56,
-      "precio": 400,
-      "nombre": "Infantil",
-      "img": "../imagenes/urnas/urna17.png",
-      "descripcion": ""
-    },
-    {
-      "id": 57,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/urnas/urna18.png",
-      "descripcion": ""
-    },
-    {
-      "id": 58,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna19.png",
-      "descripcion": ""
-    },
-    {
-      "id": 59,
-      "precio": 600,
-      "nombre": "Adulto",
-      "img": "../imagenes/urnas/urna20.png",
-      "descripcion": ""
-    },
-    {
-      "id": 60,
-      "precio": 1000,
-      "nombre": "Senior",
-      "img": "../imagenes/urnas/urna8.png",
-      "descripcion": ""
-    }
-  ]
+    "ataudes": [
+        {
+            "id": 1,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/ataudes/ataud1.png",
+            "descripcion": ""
+        },
+        {
+            "id": 2,
+            "precio": 400,
+            "nombre": "Glamur ",
+            "img": "../imagenes/ataudes/ataud2.png",
+            "descripcion": ""
+        },
+        {
+            "id": 3,
+            "precio": 600,
+            "nombre": "Niño de papa",
+            "img": "../imagenes/ataudes/ataud3.png",
+            "descripcion": ""
+        },
+        {
+            "id": 4,
+            "precio": 1000,
+            "nombre": "3D",
+            "img": "../imagenes/ataudes/ataud4.png",
+            "descripcion": ""
+        },
+        {
+            "id": 5,
+            "precio": 350,
+            "nombre": "Básico madera",
+            "img": "../imagenes/ataudes/ataud5.png",
+            "descripcion": ""
+        },
+        {
+            "id": 6,
+            "precio": 400,
+            "nombre": "Infantil terrestre",
+            "img": "../imagenes/ataudes/ataud6.png",
+            "descripcion": ""
+            },
+        {
+            "id": 7,
+            "precio": 600,
+            "nombre": "Adulto pobre",
+            "img": "../imagenes/ataudes/ataud7.png",
+            "descripcion": ""
+        },
+        {
+            "id": 8,
+            "precio": 1000,
+            "nombre": "Adulto básico",
+            "img": "../imagenes/ataudes/ataud8.png",
+            "descripcion": ""
+        },
+        {
+            "id": 9,
+            "precio": 600,
+            "nombre": "Niño querido",
+            "img": "../imagenes/ataudes/ataud9.png",
+            "descripcion": ""
+        },
+        {
+            "id": 10,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/ataudes/ataud10.png",
+            "descripcion": ""
+        },
+        {
+            "id": 11,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/ataudes/ataud11.png",
+            "descripcion": ""
+        },
+        {
+            "id": 12,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/ataudes/ataud12.png",
+            "descripcion": ""
+        },
+        {
+            "id": 13,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/ataudes/ataud13.png",
+            "descripcion": ""
+        },
+        {
+            "id": 14,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/ataudes/ataud14.png",
+            "descripcion": ""
+        },
+        {
+            "id": 15,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/ataudes/ataud15.png",
+            "descripcion": ""
+        },
+        {
+            "id": 16,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/ataudes/ataud16.png",
+            "descripcion": ""
+        },
+        {
+            "id": 17,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/ataudes/ataud17.png",
+            "descripcion": ""
+        },
+        {
+            "id": 18,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/ataudes/ataud18.png",
+            "descripcion": ""
+        },
+        {
+            "id": 19,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/ataudes/ataud19.png",
+            "descripcion": ""
+        },
+        {
+            "id": 20,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/ataudes/ataud20.png",
+            "descripcion": ""
+        }
+    ],
+    "flores": [
+        {
+            "id": 21,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/flores/Coronadeflores1.png",
+            "descripcion": ""
+        },
+        {
+            "id": 22,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/flores/Coronadeflores2.png",
+            "descripcion": ""
+        },
+        {
+            "id": 23,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores3.png",
+            "descripcion": ""
+        },
+        {
+            "id": 24,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/flores/Coronadeflores4.png",
+            "descripcion": ""
+        },
+        {
+            "id": 25,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/flores/Coronadeflores5.png",
+            "descripcion": ""
+        },
+        {
+            "id": 26,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/flores/Coronadeflores6.png",
+            "descripcion": ""
+        },
+        {
+            "id": 27,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores7.png",
+            "descripcion": ""
+        },
+        {
+            "id": 28,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/flores/Coronadeflores8.png",
+            "descripcion": ""
+        },
+        {
+            "id": 29,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores9.png",
+            "descripcion": ""
+        },
+        {
+            "id": 30,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/flores/Coronadeflores10.png",
+            "descripcion": ""
+        },
+        {
+            "id": 31,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/flores/Coronadeflores11.png",
+            "descripcion": ""
+        },
+        {
+            "id": 32,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/flores/Coronadeflores12.png",
+            "descripcion": ""
+        },
+        {
+            "id": 33,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores13.png",
+            "descripcion": ""
+            },
+        {
+            "id": 34,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/flores/Coronadeflores14.png",
+            "descripcion": ""
+        },
+        {
+            "id": 35,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/flores/Coronadeflores15.png",
+            "descripcion": ""
+        },
+        {
+            "id": 36,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/flores/Coronadeflores16.png",
+            "descripcion": ""
+        },
+        {
+            "id": 37,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores17.png",
+            "descripcion": ""
+        },
+        {
+            "id": 38,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/flores/Coronadeflores18.png",
+            "descripcion": ""
+        },
+        {
+            "id": 39,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/flores/Coronadeflores19.png",
+            "descripcion": ""
+        },
+        {
+            "id": 40,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna1.png",
+            "descripcion": ""
+        }
+    ],
+    "urnas" : [
+        {
+            "id": 41,
+            "precio": 150,
+            "nombre": "Urna biodegradable(como tu)",
+            "img": "../imagenes/urnas/urna2.png",
+            "descripción": ""
+        },
+        {
+            "id": 42,
+            "precio": 50,
+            "nombre": "Mini urna",
+            "img": "../imagenes/urnas/urna3.png",
+            "descripción": ""
+        },
+        {
+            "id": 43,
+            "precio": 100,
+            "nombre": "Urna perro",
+            "img": "../imagenes/urnas/urna4.png",
+            "descripción": ""
+        },
+        {
+            "id": 44,
+            "precio": 200,
+            "nombre": "Urna de bronze",
+            "img": "../imagenes/urnas/urna5.png",
+            "descripción": ""
+        },
+        {
+            "id": 45,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/urnas/urna6.png",
+            "descripcion": ""
+        },
+        {
+            "id": 46,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/urnas/urna7.png",
+            "descripcion": ""
+        },
+        {
+            "id": 47,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/urnas/urna8.png",
+            "descripcion": ""
+        },
+        {
+            "id": 48,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna9.png",
+            "descripcion": ""
+        },
+        {
+            "id": 49,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/urnas/urna10.png",
+            "descripcion": ""
+        },
+        {
+            "id": 50,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna11.png",
+            "descripcion": ""
+        },
+        {
+            "id": 51,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/urnas/urna12.png",
+            "descripcion": ""
+        },
+        {
+            "id": 52,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/urnas/urna13.png",
+            "descripcion": ""
+        },
+        {
+            "id": 53,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/urnas/urna14.png",
+            "descripcion": ""
+        },
+        {
+            "id": 54,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna15.png",
+            "descripcion": ""
+        },
+        {
+            "id": 55,
+            "precio": 350,
+            "nombre": "Básico",
+            "img": "../imagenes/urnas/urna16.png",
+            "descripcion": ""
+        },
+        {
+            "id": 56,
+            "precio": 400,
+            "nombre": "Infantil",
+            "img": "../imagenes/urnas/urna17.png",
+            "descripcion": ""
+        },
+        {
+            "id": 57,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/urnas/urna18.png",
+            "descripcion": ""
+        },
+        {
+            "id": 58,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna19.png",
+            "descripcion": ""
+        },
+        {
+            "id": 59,
+            "precio": 600,
+            "nombre": "Adulto",
+            "img": "../imagenes/urnas/urna20.png",
+            "descripcion": ""
+        },
+        {
+            "id": 60,
+            "precio": 1000,
+            "nombre": "Senior",
+            "img": "../imagenes/urnas/urna8.png",
+            "descripcion": ""
+        }
+    ]
 }
