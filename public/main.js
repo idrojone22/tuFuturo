@@ -70,6 +70,7 @@ body.innerHTML = `
             <div class="texto">
                 <p>En esta sección encontraras nuestros planes para tus seres mas queridos.</p>
             </div>
+            <div id="planes"></div>
         </section>
     </main>     
 `;
@@ -77,6 +78,7 @@ body.innerHTML = `
 ataudes();
 flores();
 urnas();
+Servicios();
 function ataudes() {
     const url = "https://tu-futuro.glitch.me/ataudes";
 
@@ -149,6 +151,30 @@ function mostrarUrnas(urnas) {
             <p class="texto">${urnas.precio}</p>
         </div>
     `;
+}
+
+function Servicios() {
+    const url = "https://tu-futuro.glitch.me/servicios";
+  
+    fetch(url)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        for (let i = 0; i < 10; i++) {
+          mostrarServicios(data[i]);
+        }
+      });
+}
+  
+function mostrarServicios(servicios) {
+    let serviciosContainer = document.getElementById("planes");
+    serviciosContainer.innerHTML += `
+          <div id="objeto${servicios.id}" class="casilla">
+              <img height="300px" width="300px" src="${servicios.img}"/>
+              <p class="texto">${servicios.nombre}</p>
+              <p class="texto">${servicios.precio}</p>
+          </div>
+      `;
 }
 
 
