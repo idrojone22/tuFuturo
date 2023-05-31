@@ -72,6 +72,32 @@ body.innerHTML = `
             </div>
             <div id="planes"></div>
         </section>
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <div>
+                <form id="formulario">
+                    <div class="form-group">
+                        <label class="texto" for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="texto" for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="texto" for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="texto" for="correo">Comentanos</label>
+                        <input type="text" id="cosas" name="correo" placeholder="Lo que quieras" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>     
 `;
 
@@ -179,78 +205,6 @@ function mostrarServicios(servicios) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// fetch
-/*fetchDB();
-function fetchDB() {
-
-    const url = 'http://192.168.21.105:3000/posts'
-    fetch(url)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            // presentar ataudes
-            for (let i = 0; i < 20; i++) {
-                console.log[data[i]]
-                mostrarAtaudes(data[i]);
-            }
-            // presentar flores
-            for (let i = 20; i < 40; i++) {
-                mostrarFlores(data[i]);
-            }
-            // presentar urnas
-            for (let i = 40; i < 60; i++) {
-                mostrarUrnas(data[i]);
-            }
-        })
-}
-
-function mostrarAtaudes(ataudes) {
-    let ataudesContainer = document.getElementById('ataudes');
-    ataudesContainer.innerHTML += `
-        <div id="objeto${ataudes.id}" class="casilla">
-            <img height="300px" width="300px" src="${ataudes.img}"/>
-            <p class="texto">${ataudes.nombre}</p>
-            <p class="texto">${ataudes.precio}</p>
-        </div>
-    `;
-}
-
-function mostrarFlores(flores) {
-    let floresContainer = document.getElementById('flores');
-    floresContainer.innerHTML += `
-        <div id="objeto${flores.id}" class="casilla">
-            <img height="300px" width="300px" src="${flores.img}"/>
-            <p class="texto">${flores.nombre}</p>
-            <p class="texto">${flores.precio}</p>
-        </div>
-    `;
-}
-
-function mostrarUrnas(urnas) {
-    let urnasContainer = document.getElementById('urnas');
-    urnasContainer.innerHTML += `
-        <div id="objeto${urnas.id}" class="casilla">
-            <img height="300px" width="300px" src="${urnas.img}"/>
-            <p class="texto">${urnas.nombre}</p>
-            <p class="texto">${urnas.precio}</p>
-        </div>
-    `;
-}*/
-
 // Menu
 function updatemenu() {
     if (document.getElementById('responsive-menu').checked == true) {
@@ -261,4 +215,46 @@ function updatemenu() {
     }
 }   
 
+let login1 = document.getElementById("formulario");
 
+login1.addEventListener('submit', function(event) {
+    event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+    
+    // Obtener los valores del formulario
+    let nombre = login1.nombre.value;
+    let apellido = login1.apellido.value;
+    let correo = login1.correo.value;
+    let cosas = login1.cosas.value;
+    console.log(nombre);
+    
+    // Crear un objeto con los datos del formulario
+    let data = {
+        nombre: nombre,
+        apellido: apellido,
+        correo: correo,
+        cosas: cosas
+    };
+    
+    // Realizar la solicitud POST utilizando fetch
+    fetch('https://tu-futuro.glitch.me/contactos/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+    .then(function(response) {
+      // Comprobar el estado de la respuesta
+      if (response.ok) {
+        // La solicitud fue exitosa
+        console.log('Registro exitoso');
+        // Aquí puedes realizar alguna acción adicional, como redirigir al usuario a otra página
+      } else {
+        // La solicitud falló
+        console.log('Error en el registro');
+      }
+    })
+    .catch(function(error) {
+      console.log('Error en la solicitud:', error);
+    });
+});
