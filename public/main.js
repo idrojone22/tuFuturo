@@ -72,17 +72,17 @@ body.innerHTML = `
             </div>
             <div id="planes"></div>
         </section>
-        <section id="contacto">
+        <section id="contacto-container">
             <h3>Contacto</h3>
-            <div>
+            <div id="contacto">
                 <form id="formulario">
                     <div class="form-group">
                         <label class="texto" for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+                        <input type="text" id="nombre" name="nombre"  placeholder="nombre" required>
                     </div>
                     <div class="form-group">
                         <label class="texto" for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido" required>
+                        <input type="text" id="apellido" name="apellido" placeholder="apellido" required>
                     </div>
                     <div class="form-group">
                         <label class="texto" for="correo">Correo electrónico:</label>

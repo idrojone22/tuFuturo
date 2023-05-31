@@ -391,10 +391,15 @@ header {
 	  
 }
 
+#contacto-container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
 #contacto{
-	width: 100%;
+	width: 25%;
 	height: 500px;
-	background-color: #eeff00;
 	text-align: center;
 }
 
@@ -433,4 +438,5 @@ header {
 	background-color: #4CAF50;
 	color: #fff;
 	cursor: pointer;
+	width: 100%;
 }
