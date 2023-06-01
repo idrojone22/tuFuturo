@@ -218,16 +218,14 @@ function updatemenu() {
 let login1 = document.getElementById("formulario");
 
 login1.addEventListener('submit', function(event) {
-    event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+    event.preventDefault();
     
-    // Obtener los valores del formulario
     let nombre = login1.nombre.value;
     let apellido = login1.apellido.value;
     let correo = login1.correo.value;
     let cosas = login1.cosas.value;
     console.log(nombre);
     
-    // Crear un objeto con los datos del formulario
     let data = {
         nombre: nombre,
         apellido: apellido,
@@ -235,7 +233,6 @@ login1.addEventListener('submit', function(event) {
         cosas: cosas
     };
     
-    // Realizar la solicitud POST utilizando fetch
     fetch('https://tu-futuro.glitch.me/contactos/', {
       method: 'POST',
       headers: {
@@ -244,13 +241,9 @@ login1.addEventListener('submit', function(event) {
       body: JSON.stringify(data)
     })
     .then(function(response) {
-      // Comprobar el estado de la respuesta
       if (response.ok) {
-        // La solicitud fue exitosa
         console.log('Registro exitoso');
-        // Aquí puedes realizar alguna acción adicional, como redirigir al usuario a otra página
       } else {
-        // La solicitud falló
         console.log('Error en el registro');
       }
     })
