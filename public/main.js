@@ -89,8 +89,8 @@ body.innerHTML = `
                         <input type="text" id="correo" name="correo" placeholder="Correo Electrónico" required>
                     </div>
                     <div class="form-group">
-                        <label class="texto" for="correo">Comentanos</label>
-                        <input type="text" id="cosas" name="correo" placeholder="Lo que quieras" required>
+                        <label class="texto" for="comentarios">Comentanos</label>
+                        <input type="text" id="cosas" name="comentarios" placeholder="Lo que quieras" required>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Enviar">
